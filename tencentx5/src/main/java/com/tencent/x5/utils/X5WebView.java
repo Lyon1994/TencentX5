@@ -91,6 +91,10 @@ public class X5WebView extends WebView {
         }
     };
 
+    public void setIgnoreSslError(boolean ignoreSslError) {
+        isIgnoreSslError = ignoreSslError;
+    }
+
     private WebViewClient pagerListener;
 
     public void setPagerListener(WebViewClient pagerListener) {
